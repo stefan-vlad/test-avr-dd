@@ -1,4 +1,6 @@
-[![MCHP](images/microchip.png)](https://www.microchip.com)
+<!-- Please do not change this html logo with link -->
+
+<a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
 # Analog to Digital Convertor (ADC) in five different modes using AVR64DD32 Microcontroller
 
