@@ -1,0 +1,59 @@
+{
+  "metaDataVersion": "1.0.0",
+  "category": "com.microchip.ide.project",
+  "content": {
+      "metaDataVersion": "1.3.0",
+      "name": "com.microchip.mcu8.mplabx.project.avr64dd32-cnano-adc-code-examples-mplab",
+      "version": "1.0.0",
+      "displayName": "Curiosity Nano Out-of-the-Box Code",
+      "projectName": "avr64dd32-cnano-adc-code-examples-mplab",
+      "shortDescription": "This repository contains five ADC examples: Event Triggered, Free Running, Sample Accumulator, Single Conversion, Window Comparator for AVR64DD32 Curiosity Nano board",
+      "ide": {
+          "name": "MPLAB X",
+          "semverRange": ">=5.50.0"
+      },
+      "compiler": [
+          {
+              "name": "XC8",
+              "semverRange": "^2.32.0"
+          }
+      ],
+      "dfp": {
+          "name": "AVR-Dx_DFP",
+          "semverRange": "^1.10.152"
+      },
+      "configurator": {
+          "name": "MCC",
+          "semverRange": ">=5.0.3"
+      },
+      "device": {
+          "metaDataVersion": "1.0.0",
+          "category": "com.microchip.portal.contentRef",
+          "content": {
+              "metaDataVersion": "1.0.0",
+              "category": "com.microchip.device",
+              "name": "AVR64DD32",
+              "versionRange": "*"
+          }
+      },
+      "author": "Teodor-Emilian Petre",
+      "peripherals": [
+          "ADC"
+      ],
+      "keywords": [
+          "Getting Started",
+          "ADC"
+      ],
+      "additionalData": {
+          "longDescription": {
+              "metaDataVersion": "1.0.0",
+              "category": "com.microchip.portal.fileRef",
+              "content": {
+                  "metaDataVersion": "1.0.0",
+                  "fileName": "./README.md",
+                  "mimeType": "text/markdown"
+              }
+          }
+      }
+  }
+}
