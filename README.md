@@ -174,29 +174,32 @@ This project shows how to configure the ADC peripheral in Window Comparator mode
 
 ## How to Program Curiosity Nano board
 
-This chapter demonstrates how to use the MPLAB® X IDE to program an AVR® device with an Example_Project.X. This can be applied for any other projects.
+This chapter shows how to use the MPLAB® X IDE to program an AVR® device with an Example_Project.X. This can be applied for any other projects.
 
 - Connect the board to the PC.
 
 - Open the Example_Project.X project in MPLAB X IDE.
 
 - Set the Example_Project.X project as main project.
-  <br>Right click on the project in the **Projects** tab and click **Set as Main Project**.
-  <br><img src="images/Program_Set_as_Main_Project.PNG" width="600">
+
+  - Right click on the project in the **Projects** tab and click **Set as Main Project**.
+    <br><img src="images/Program_Set_as_Main_Project.PNG" width="600">
 
 - Clean and build the Example_Project.X project.
-  <br>Right click on the **Example_Project.X** project and select **Clean and Build**.
-  <br><img src="images/Program_Clean_and_Build.PNG" width="600">
+
+  - Right click on the **Example_Project.X** project and select **Clean and Build**.
+    <br><img src="images/Program_Clean_and_Build.PNG" width="600">
 
 - Select the **AVRxxxxx Curiosity Nano** in the Connected Hardware Tool section of the project settings:
-  <br>Right click on the project and click **Properties**
-  <br>Click on the arrow under the Connected Hardware Tool
-  <br>Select the **AVRxxxxx Curiosity Nano** (click on the **SN**), click **Apply** and then click **OK**:
-  <br><img src="images/Program_Tool_Selection.PNG" width="600">
+
+  - Right click on the project and click **Properties**
+  - Click on the arrow under the Connected Hardware Tool
+  - Select the **AVRxxxxx Curiosity Nano** (click on the **SN**), click **Apply** and then click **OK**:
+    <br><img src="images/Program_Tool_Selection.PNG" width="600">
 
 - Program the project to the board.
-  <br>Right click on the project and click **Make and Program Device**.
-  <br><img src="images/Program_Make_and_Program_Device.PNG" width="600">
+  - Right click on the project and click **Make and Program Device**.
+    <br><img src="images/Program_Make_and_Program_Device.PNG" width="600">
 
 <br>
 
