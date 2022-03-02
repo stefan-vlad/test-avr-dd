@@ -33,7 +33,7 @@ More details and code examples on the AVR64DD32 can be found at the following li
 
 ## Operation
 
-To program the Curiosity Nano board with this MPLAB® X project, follow the steps provided in the [6. Program Curiosity Nano board](#6-program-curiosity-nano-board) chapter.<br><br>
+To program the Curiosity Nano board with this MPLAB® X project, follow the steps provided in the [How to Program Curiosity Nano board](#how-to-program-curiosity-nano-board) chapter.<br><br>
 
 ## 1. Event Triggered
 
@@ -91,7 +91,7 @@ The following configurations must be made for this project:
 
 ### 2.2 Summary
 
-This project shows how to configure the ADC peripheral in Free-Running mode where a new conversion starts automatically after the previous one is completed.<br>
+This project shows how to configure the ADC peripheral in Free-Running mode where a new conversion starts automatically after the previous one is completed.<br><br>
 [Back to top](#analog-to-digital-convertor-adc-in-five-different-modes-using-avr64dd32-microcontroller)<br>
 
 ## 3. Sample Accumulator
@@ -116,7 +116,7 @@ The following configurations must be made for this project:
 
 ### 3.2 Summary
 
-This project shows how to use the ADC in the Sample Accumulator mode to reduce the noise influence on the result.<br>
+This project shows how to use the ADC in the Sample Accumulator mode to reduce the noise influence on the result.<br><br>
 [Back to top](#analog-to-digital-convertor-adc-in-five-different-modes-using-avr64dd32-microcontroller)<br>
 
 ## 4. Single Conversion
@@ -141,7 +141,7 @@ The following configurations must be made for this project:
 
 ### 4.2 Summary
 
-This project shows how to configure the ADC peripheral to execute a single conversion cycle.<br>
+This project shows how to configure the ADC peripheral to execute a single conversion cycle.<br><br>
 [Back to top](#analog-to-digital-convertor-adc-in-five-different-modes-using-avr64dd32-microcontroller)<br>
 
 ## 5. Window Comparator
@@ -169,34 +169,34 @@ The following configurations must be made for this project:
 
 ### 5.2 Summary
 
-This project shows how to configure the ADC peripheral in Window Comparator mode. In this mode, the microcontroller detects if the ADC result is below or above a specific threshold value.<br>
+This project shows how to configure the ADC peripheral in Window Comparator mode. In this mode, the microcontroller detects if the ADC result is below or above a specific threshold value.<br><br>
 [Back to top](#analog-to-digital-convertor-adc-in-five-different-modes-using-avr64dd32-microcontroller)<br>
 
-## 6. Program Curiosity Nano board
+## How to Program Curiosity Nano board
 
 This chapter demonstrates how to use the MPLAB® X IDE to program an AVR® device with an Example_Project.X. This can be applied for any other projects.
 
-1.  Connect the board to the PC.
+- Connect the board to the PC.
 
-2.  Open the Example_Project.X project in MPLAB X IDE.
+- Open the Example_Project.X project in MPLAB X IDE.
 
-3.  Set the Example_Project.X project as main project.
-    <br>Right click on the project in the **Projects** tab and click **Set as Main Project**.
-    <br><img src="images/Program_Set_as_Main_Project.PNG" width="600">
+- Set the Example_Project.X project as main project.
+  <br>Right click on the project in the **Projects** tab and click **Set as Main Project**.
+  <br><img src="images/Program_Set_as_Main_Project.PNG" width="600">
 
-4.  Clean and build the Example_Project.X project.
-    <br>Right click on the **Example_Project.X** project and select **Clean and Build**.
-    <br><img src="images/Program_Clean_and_Build.PNG" width="600">
+- Clean and build the Example_Project.X project.
+  <br>Right click on the **Example_Project.X** project and select **Clean and Build**.
+  <br><img src="images/Program_Clean_and_Build.PNG" width="600">
 
-5.  Select the **AVRxxxxx Curiosity Nano** in the Connected Hardware Tool section of the project settings:
-    <br>Right click on the project and click **Properties**
-    <br>Click on the arrow under the Connected Hardware Tool
-    <br>Select the **AVRxxxxx Curiosity Nano** (click on the **SN**), click **Apply** and then click **OK**:
-    <br><img src="images/Program_Tool_Selection.PNG" width="600">
+- Select the **AVRxxxxx Curiosity Nano** in the Connected Hardware Tool section of the project settings:
+  <br>Right click on the project and click **Properties**
+  <br>Click on the arrow under the Connected Hardware Tool
+  <br>Select the **AVRxxxxx Curiosity Nano** (click on the **SN**), click **Apply** and then click **OK**:
+  <br><img src="images/Program_Tool_Selection.PNG" width="600">
 
-6.  Program the project to the board.
-    <br>Right click on the project and click **Make and Program Device**.
-    <br><img src="images/Program_Make_and_Program_Device.PNG" width="600">
+- Program the project to the board.
+  <br>Right click on the project and click **Make and Program Device**.
+  <br><img src="images/Program_Make_and_Program_Device.PNG" width="600">
 
 <br>
 
