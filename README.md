@@ -65,7 +65,7 @@ The following configurations must be made for this project:
 
 ### 1.2 Summary
 
-This project shows how to configure the ADC peripheral to execute conversions every time a certain event happens. In this specific example, the RTC overflow (at 500 ms) is used as event generator. Every time a conversion cycle is triggered, the on-board LED is toggled to signal the end of a conversion.<br>
+This project shows how to configure the ADC peripheral to execute conversions every time a certain event happens. In this specific example, the RTC overflow (at 500 ms) is used as event generator. Every time a conversion cycle is triggered, the on-board LED is toggled to signal the end of a conversion.<br><br>
 [Back to top](#analog-to-digital-convertor-adc-in-five-different-modes-using-avr64dd32-microcontroller)<br>
 
 ## 2. Free Running
@@ -182,21 +182,23 @@ This chapter demonstrates how to use the MPLAB® X IDE to program an AVR® devic
 
 3.  Set the Example_Project.X project as main project.
     <br>Right click on the project in the **Projects** tab and click **Set as Main Project**.
-    <br><img src="images/Program_Set_as_Main_Project.PNG" width="800">
+    <br><img src="images/Program_Set_as_Main_Project.PNG" width="600">
 
 4.  Clean and build the Example_Project.X project.
     <br>Right click on the **Example_Project.X** project and select **Clean and Build**.
-    <br><img src="images/Program_Clean_and_Build.PNG" width="800">
+    <br><img src="images/Program_Clean_and_Build.PNG" width="600">
 
 5.  Select the **AVRxxxxx Curiosity Nano** in the Connected Hardware Tool section of the project settings:
     <br>Right click on the project and click **Properties**
     <br>Click on the arrow under the Connected Hardware Tool
     <br>Select the **AVRxxxxx Curiosity Nano** (click on the **SN**), click **Apply** and then click **OK**:
-    <br><img src="images/Program_Tool_Selection.PNG" width="800">
+    <br><img src="images/Program_Tool_Selection.PNG" width="600">
 
 6.  Program the project to the board.
     <br>Right click on the project and click **Make and Program Device**.
-    <br><img src="images/Program_Make_and_Program_Device.PNG" width="950">
+    <br><img src="images/Program_Make_and_Program_Device.PNG" width="600">
+
+<br>
 
 - [Back to 1. Event Triggered](#1-event-triggered)
 - [Back to 2. Free Running](#2-free-running)
