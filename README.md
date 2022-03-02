@@ -172,8 +172,6 @@ The following configurations must be made for this project:
 This project shows how to configure the ADC peripheral in Window Comparator mode. In this mode, the microcontroller detects if the ADC result is below or above a specific threshold value.<br><br>
 [Back to top](#analog-to-digital-convertor-adc-in-five-different-modes-using-avr64dd32-microcontroller)<br>
 
-#
-
 ## How to Program Curiosity Nano board
 
 This chapter shows how to use the MPLAB® X IDE to program an AVR® device with an Example_Project.X. This can be applied for any other projects.
